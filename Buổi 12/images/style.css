@@ -1,0 +1,35 @@
+img {
+    width: 100px;
+}
+body > div {
+    float: left;
+    width: 16%;
+    margin-left: 2%;
+    margin-right: 2;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin: 20px 2% 20px 2%;
+}
+H1 {
+    text-align: center;
+/*
+ h1 + div 
+ chỉ tác dụng cho 1 div duy nhất
+ */
+}
+h1 + div {
+    background-color:blue ;
+}
+/*
+nằm dưới H1
+*/
+h1 ~ div {
+    background-color: blue;
+}
+
+body > div:hover {
+    background-color:red;
+}
+
+
+

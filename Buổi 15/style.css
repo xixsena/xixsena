@@ -1,0 +1,147 @@
+li > ul {
+    display: none
+}
+
+ul  li {
+    float: left;
+    color: #1d1d1d;
+    width: 8%;
+    font-family: sans-serif;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+header img {
+    float: left;
+    height: 20px;
+    width: 5%;
+    padding-right: 20px;
+}
+
+html body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header a {
+    float: right;
+    font-size: 25px;
+    color: #1d1d1d;
+}
+
+header button {
+    float: right;
+    margin-left: 1.5%;
+    font-size: 20px;
+    margin-right: 1.5%;
+}
+header button:nth-last-child(2) {
+    border: 2px solid #4a15ab;
+    background-color: transparent;
+    color: #4a15ab;
+    height: 36px;
+    border-radius: 5%;
+    font-weight: bold;
+}
+header button:nth-last-child(3) {
+    background-color: #4a15ab;
+    color: #f6efe8;
+    border: 2px solid #4a15ab;
+}
+
+video {
+    width: 40%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: none;
+}
+
+#video-section div button {
+    font-size: 14%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 36px;
+    border-radius: 5%;
+    font-weight: bold;
+    border: 2px solid #4a15ab;
+    background-color: transparent;
+    color: #4a15ab;
+}
+#brand-section img{
+    display: inline;
+    margin: auto;
+    height: 30px;   
+}
+
+#bran-section {
+    padding-left: 10%;
+}
+
+#intro-section img {
+    float: right;
+    margin-top: -10px;
+}
+
+#intro-section h1 {
+    font-size: 70px;
+    width: 550px;
+    margin: 0;
+}
+
+#introl-section p {
+    font-size: 18px;
+    width: 450px;
+}
+
+#introl-button:nth-last-child(2){
+    border: solid blue;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4a15ab;
+    text-align: center;
+}
+
+@media screen and   (max-width: 450px){
+    header > ul, header > button, header > a {
+        display: none;
+    }
+
+    header img {
+        width: 35%;
+        height: 50%;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    header {
+        background-color: white;
+    }
+    div > h1 {
+        font-size: 18px;
+        width: 100%;
+    }
+    #introl-section > img {
+            width: 100%;
+            height: auto;
+    }
+    #brand-section{
+        height: 200px;
+        margin-top: 50px;
+    }
+    #bran-section{
+        padding: 10px;
+    }
+    video{
+        width: 90%;
+    }
+    #video-section div{
+        width: 90%;
+    }
+
+}
+

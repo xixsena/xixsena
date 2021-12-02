@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+}
+
+#logo {
+    
+}
+
+nav #main-menu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-right: 70px;
+}
