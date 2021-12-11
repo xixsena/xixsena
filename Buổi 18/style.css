@@ -5,10 +5,11 @@
 }
 
 #main{
-    background: linear-gradient(rgba(0,0,0,0.5),#009688)
-    url("imgaes/nền.jpg");
+    background-image: url("imgaes/nền.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -72,4 +73,22 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+#menubtn {
+    width: 50px;
+    height: 50px;
+    background: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menubtn img{
+    width: 20px;
+    margin-top: 15px;
 }

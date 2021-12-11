@@ -7,20 +7,21 @@
     <title>My Kingdom</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="main"></section>
+    <section id="main">
         <img src="./imgaes/nền.jpg" class="logo">
         <div class="main-text">
             <h1>My Kingdom</h1>
-            <p>Unleash Your Passion</p>
+            <p>Discover gifts to rebuild</p>
             <div class="main-bth"></div>
-            <a href="#"><span></span>Find out</a>
-            <a href="#"><span></span>Read more</a>
+            <a href="#"><span></span>Shop now</a>
+            <a href="#"><span></span>Discover</a>
         </div>
-
+    </section>
         <section id="sideNav"></section>
             <nav>
                 <ul>
@@ -32,7 +33,58 @@
                 </ul>
             </nav>
             <div id="menubtn">
-                <img src="" alt="">
+                <img src="imgaes/menu.png" alt="menu">
             </div>
+
+            <section id="feature">
+                <div class="title-text">
+                    <p>FEATURES</p>
+                    <h1>Why choose Us</h1>
+                </div>
+            </section>
+            <section>
+            <div class="feature-box">
+                <div class="fetures">
+                    <h1>Experienced Staff</h1>
+                    <div class="fetures-desc">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-shaded"></i>
+                        </div>
+                        <div class="feture-text">
+                            <p>Build a star. Make a difference.
+                                This holiday season, build a star and share it on social media with #BuildToGive to help us bring the joy of LEGO® play to 1.5 million children in need.</p>
+                        </div>
+                    </div>
+                    <h1>Experienced Staff</h1>
+                    <div class="fetures-desc">
+                        <div class="feature-icon">
+                            <i class="bi bi-check2-square"></i>
+                        </div>
+                        <div class="feture-text">
+                            <p>Build a star. Make a difference.
+                                This holiday season, build a star and share it on social media with #BuildToGive to help us bring the joy of LEGO® play to 1.5 million children in need.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-img">
+                    <img src="imgaes/nerf.jpg" alt="">
+                </div>
+            </div>
+        </section>
+            <script>
+                var menubtn = document.getElementById("menubtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById(menu)
+                sideNav.style.right = "-250px";
+                menubtn.onclick = function(){
+                    if(sideNav.style.right == "-250px"){
+                        sideNav.style.right = "0";
+                        menu.src = "imgaes/cloes.png";
+                    }else{
+                        sideNav.style.right = "-250px"
+                        menu.src = "imgaes/menu.png"
+                }
+                }
+            </script>
 </body>
 </html>
