@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- bootrap và swiper  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!--  css   -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="" class="logo" style="text-decoration: none;"> <i class="bi bi-lightbulb"></i> Athena</a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="Trang chủ.html"  style="text-decoration: none;">Trang chủ</a>
+      <a href="Giới thiệu.html"  style="text-decoration: none;">Giới thiệu</a>
+      <a href="Các khóa học.html"  style="text-decoration: none;">Các khóa học</a>
+      <a href="Liên hệ.html"  style="text-decoration: none;">Liên hệ</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="bi bi-person"></div>
+      <div id="menu-btn" class="bi bi-list"></div>
+   </div>
+
+</header>
+
+<!-- account   -->
+
+<div class="account-form">
+
+   <div id="close-form" class="bi bi-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">Đăng nhập</span>
+      <span class="btn register-btn">Đăng ký</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>Đăng nhập</h3>
+      <input type="email" placeholder="Nhập tài khoản" class="box">
+      <input type="password" placeholder="Nhập mật khẩu" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">Lưu nhớ tài khoản</label>
+         <a href="">Quên mật khẩu?</a>
+      </div>
+      <input type="submit" value="Đăng nhập" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>Đăng ký ngay</h3>
+      <input type="email" placeholder="Nhập email" class="box">
+      <input type="password" placeholder="Nhập mật khẩu" class="box">
+      <input type="password" placeholder="Xác nhập mật khẩu" class="box">
+      <input type="submit" value="Đăng ký ngay" class="btn">
+   </form>
+
+</div>
+
+
+
+
+
+<!-- home -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>Nắm chắc trong tay nghề nghiệp "hot" nhất thời đại 4.0</h3>
+               <p>Bạn đang tìm kiếm một nghề nghiệp ổn định, lương cao, có tương lai phát triển? Với chương trình đào tạo nghề bài bản theo mô hình Coding Bootcamp, CodeGym sẽ đưa bạn từ con số 0 đến với nghề nghiệp mơ ước chỉ trong 20 tuần với chi phí chỉ bằng 1/10 chương trình đào tạo truyền thống. Bạn sẽ có việc làm ngay trong 45 ngày sau khi học xong mà không mất bất kỳ chi phí xin việc nào.</p>
+               <a href="#" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>Bất kì ai cũng có thể học được - làm được!</h3>
+               <p>Chương trình đào tạo sát với nhu cầu tuyển dụng của doanh nghiệp, lộ trình học tập và huấn luyện được cá nhân hoá đến từng học viên thông qua hệ thống phần mềm học tập hiện đại. Bạn sẽ được các huấn luyện viên và giảng viên hỗ trợ 1-1 trong suốt khóa học để đảm bảo bạn hoàn thành mục tiêu học tập. Bạn có thể học lại hoàn toàn miễn phí cho tới khi làm được việc.</p>
+               <a href="#" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>Cam kết 100% có việc làm ngay!</h3>
+               <p>Athena cam kết hoàn 100% học phí nếu bạn không nhận được việc làm trong vòng 45 ngày kể từ khi tốt nghiệp. Mặc dù hơn 80% học viên không có kinh nghiệm về lập trình trước đó, 100% học viên tốt nghiệp tại Athena đều đã đi làm cho các doanh nghiệp phần mềm (FPT Software, NAL, NTQ Solution, Vela Corp, Septeni…) </p>
+               <a href="#" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+
+<!-- subjects section starts  -->
+
+<section class="subjects">
+
+   <h1 class="heading">our popular subjects</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/C++.png" alt="">
+         <h3>C++/h3>
+         <p>Thời gian: 3 tháng</p>
+      </div>
+
+      <div class="box">
+         <img src="images/web Development.jpg" alt="">
+         <h3>HTML/Css</h3>
+         <p>Thời gian: 3 tháng</p>
+      </div>
+
+      <div class="box">
+         <img src="images/python.webp" alt="">
+         <h3>Python</h3>
+         <p>Thời gian: 3 tháng</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<!-- home courses   -->
+
+<section class="home-courses">
+
+   <h1 class="heading"> our popular courses </h1>
+
+   <div class="swiper home-courses-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/Ai.png" alt="">
+               <h3>Ai development</h3>
+            </div>
+            <div class="content">
+               <h3>Ai development</h3>
+               <p>Sáng tạo và phát triển trí tuệ thông minh  nhân tạo</p>
+               <a href="" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/download.jfif" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Thiết kế, sáng tạo website</p>
+               <a href="" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/game.png" alt="">
+               <h3>Game designer</h3>
+            </div>
+            <div class="content">
+               <h3>Game designer</h3>
+               <p>Sáng tạo và phát triển 1 thế giới theo trí tưởng tượng của bạn</p>
+               <a href="" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/grapic.jpg" alt="">
+               <h3>Grapic designer</h3>
+            </div>
+            <div class="content">
+               <h3>Grapic designer</h3>
+               <p>Sáng tạo nghệ thuật </p>
+               <a href="" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/bao mat 2.jpg" alt="">
+               <h3>Bảo mật</h3>
+            </div>
+            <div class="content">
+               <h3>Bảo mật</h3>
+               <p>Bảo vệ hệ thống an ninh an toàn trên mạng</p>
+               <a href="" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/app.jpg.opdownload" alt="">
+               <h3>App development</h3>
+            </div>
+            <div class="content">
+               <h3>App development</h3>
+               <p>Thiết kế sáng tạo ứng dụng trên máy điện thoại thông minh</p>
+               <a href="" class="btn">Tìm hiểu thêm</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+
+<!-- footer   -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3> <i class="fas fa-lightbulb"></i> Athena </h3>
+         <p>Bên cạnh các kiến thức chuyên sâu, chưa có đơn vị nào cung cấp một môi trường học và thực hành gần gũi với thực tế doanh nghiệp.</p>
+         <div class="share">
+            <a href="" class="bi bi-facebook"></a>
+            <a href="" class="bi bi-twitter"></a>
+            <a href="" class="bi bi-instagram"></a>
+            <a href="" class="bi bi-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="Trang chủ.html" class="link">Trang chủ</a>
+         <a href="Giới thiệu.html" class="link">Giới thiệu</a>
+         <a href="Các khóa học.html" class="link">Các khóa học</a>
+         <a href="Liên hệ.html" class="link">Liên hệ</a>
+      </div>
+
+      <div class="box">
+         <h3>useful links</h3>
+         <a href="" class="link">Tại sao chọn Athena?</a>
+         <a href="" class="link">Học viên Athena</a>
+         <a href="" class="link">Báo chí</a>
+         <a href="" class="link">Blog Athena</a>
+         <a href="" class="link">Blog Học viên/a>
+      </div>
+
+      <div class="box">
+         <h3>Đăng ký để được tư vấn thêm</h3>
+         <p>subscribe for latest upadates</p>
+         <form action="">
+            <input type="email" name="" placeholder="Nhập email" id="" class="email">
+            <input type="submit" value="Đăng ký" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   
+
+</section>
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
